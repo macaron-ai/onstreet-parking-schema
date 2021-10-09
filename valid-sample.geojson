@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Saint-Ouen-sur-Seine",
+                "city_code": "93070",
+                "lenght": 12.32,
+                "width": 2.0,
+                "calculated_places": 2,
+                "calculated_area": 24.64,
+                "street_name": "Rue Dora Maar",
+                "street_number_start": "9",
+                "street_number_end": "11",
+                "postal_code": "93400",
+                "created_at": "2021-02-23T15:41:47.929Z",
+                "updated_at": "2021-02-23T15:41:47.929Z",
+                "geoPoint2d": [2.32190669747328, 48.9056291233386],
+                "producer": "Macaron SAS",
+                "regulations": [
+                    {
+                        "rule": {
+                            "type": "PAYANT",
+                            "price": 1.8
+                        },
+                        "opening_hours": "Mo-Fr 09:00-19:00"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [2.32187796928838, 48.9056693404734],
+                        [2.32190881471467, 48.9055847155507],
+                        [2.3219354256363, 48.9055889062037],
+                        [2.32190458025502, 48.9056735311265],
+                        [2.32187796928838, 48.9056693404734]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Saint-Ouen-sur-Seine",
+                "city_code": "93070",
+                "lenght": 53.535,
+                "width": 2.0,
+                "places": 12,
+                "calculated_area": 107.07,
+                "street_name": "Rue Paul Lafargue",
+                "street_number_start": null,
+                "street_number_end": "",
+                "postal_code": "93400",
+                "created_at": "2021-05-20T15:23:01.845Z",
+                "updated_at": "2021-05-20T15:23:01.845Z",
+                "geoPoint2d": [2.33288998476414, 48.9122698762791],
+                "regulations": [
+                    {
+                        "rule": {
+                            "type": "ÉLECTRIQUE"
+                        },
+                        "opening_hours": "Mo-Su 00:00-00:00"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [2.3325438333485, 48.9123474602048],
+                        [2.33322633956561, 48.9121754978026],
+                        [2.3332361361638, 48.9121922923534],
+                        [2.33255362998034, 48.9123642547557],
+                        [2.3325438333485, 48.9123474602048]
+                    ]
+                ]
+            }
+        }
+    ]
+}
