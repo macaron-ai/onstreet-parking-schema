@@ -4,15 +4,15 @@ on:
     push:
 
 env:
-  SCHEMA_PATH: schema.json # set this to the JSON Schema path
-  SAMPLE_PATH: valid-sample.geojson # set this to the sample file path
+    SCHEMA_PATH: onstreet-parking.schema.json # set this to the JSON Schema path
+    SAMPLE_PATH: valid-sample.geojson # set this to the sample file path
 
 jobs:
-    build:
+    validate:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            # AJV does not consider the geojson external schema, but the errors are more detailed
+            # AVJ does not consider the geojson external schema, but the errors are more detailed
             # so I put both validator,
             - name: Validate JSON with AVJ.
               uses: docker://orrosenblatt/validate-json-action:latest

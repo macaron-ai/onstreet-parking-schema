@@ -6,7 +6,7 @@ Le schéma se base sur la norme [GeoJSON](https://geojson.org/) pour la représe
 
 - Contributeur(s) : Abdou Bouroubi (Macaron)
 - Schéma initié le : 08/08/2021
-- Version : 0.0.1
+- Version : 0.0.2
 
 ### Attributs
 
