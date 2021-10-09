@@ -12,9 +12,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            # AVJ does not consider the geojson external schema, but the errors are more detailed
+            # Ajv does not consider the geojson external schema, but the errors are more detailed
             # so I put both validator,
-            - name: Validate JSON with AVJ.
+            - name: Validate JSON with Ajv.
               uses: docker://orrosenblatt/validate-json-action:latest
               env:
                   INPUT_SCHEMA: ${{ env.SCHEMA_PATH }}
