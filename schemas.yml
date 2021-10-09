@@ -1,0 +1,7 @@
+title: "Emprise de stationnement sur la voirie"
+description: "Spécification du schéma de données d'emprises de stationnement"
+homepage: "https://github.com/macaron-ai/onstreet-parking-schema/"
+
+schemas:
+    - path: "onstreet-parking.schema.json"
+      title: "Emprise de stationnement sur la voirie"
