@@ -94,8 +94,7 @@
                     "type": "string",
                     "title": "Nom de la rue",
                     "description": "Nom de la voie où est situé l'emprise de stationnment",
-                    "examples": ["Rue Berger"],
-                    "pattern": "^[a-zA-Z\u00C0-\u00FF]+$"
+                    "examples": ["Rue Berger"]
                 },
                 "street_number_start": {
                     "type": "string",
