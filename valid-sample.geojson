@@ -49,6 +49,7 @@
                 "lenght": 53.535,
                 "width": 2.0,
                 "places": 12,
+                "calculated_places": 10,
                 "calculated_area": 107.07,
                 "street_name": "Rue Paul Lafargue",
                 "street_number_start": null,
