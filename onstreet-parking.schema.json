@@ -207,7 +207,7 @@
                             "examples": [2.4]
                         }
                     },
-                    "required": ["type", "price"]
+                    "required": ["type"]
                 },
                 "opening_hours": {
                     "type": "string",
