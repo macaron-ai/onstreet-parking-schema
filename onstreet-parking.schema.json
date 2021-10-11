@@ -1,4 +1,5 @@
 {
+    "$id": "https://raw.githubusercontent.com/macaron-ai/onstreet-parking-schema/raw/1.0.0/onstreet-parking.schema.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Onstreet parking",
     "description": "Onstreet parking reprensentation",
@@ -14,7 +15,26 @@
                 "$ref": "#/definitions/feature"
             }
         }
-    },
+    },  
+    "countryCode": "FR",
+    "homepage": "https://github.com/macaron-ai/onstreet-parking-schema",
+    "licenses": [
+      {
+        "title": "Etalab Licence Ouverte 2.0",
+        "name": "etalab-2.0",
+        "path": "https://spdx.org/licenses/etalab-2.0.html"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Fichier valide (JSON)",
+        "name": "valid-sample.geojson",
+        "path": "https://raw.githubusercontent.com/macaron-ai/onstreet-parking-schema/raw/1.0.0/valid-sample.geojson"
+      }
+    ],
+    "created": "2021-10-11",
+    "lastModified": "2021-10-11",
+    "version": "1.0.0",
     "definitions": {
         "feature": {
             "type": "object",
