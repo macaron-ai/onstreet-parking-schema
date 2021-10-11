@@ -27,7 +27,7 @@
     ],
     "resources": [
       {
-        "title": "Fichier valide (JSON)",
+        "title": "Valid file (Geojson)",
         "name": "valid-sample.geojson",
         "path": "https://raw.githubusercontent.com/macaron-ai/onstreet-parking-schema/raw/1.0.0/valid-sample.geojson"
       }
