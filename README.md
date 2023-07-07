@@ -2,7 +2,7 @@
 
 Ce schéma s'applique aux projets de cartographie des emprises de stationnement.
 
-Le schéma se base sur la norme [GeoJSON](https://geojson.org/) pour la représentation des formes géométrique.
+Le schéma se base sur la norme [GeoJSON](https://geojson.org/) pour la représentation des formes géométriques.
 
 - Contributeur(s) : Abdou Bouroubi (Macaron)
 - Schéma initié le : 08/08/2021
@@ -25,16 +25,16 @@ Nom|Type|Description|Exemple|Contrainte|
 |`city_code`|chaîne de caractères|France: code INSEE|Paris|Obligatoire|
 |`length`|nombre|Longueur de l'emprise de stationnemment en mètre|35.83|Obligatoire|
 |`width`|nombre|Largeur de l'emprise de stationnemment en mètre|2|Obligatoire|
-|`places`|nombre entier|Nombre de places réeles de l'emprise en cas de présence de marquage au sol|12|Optionnel|
-|`calculated_places`|nombre entier|Nombre de places calculée pour l'emprise. Exemple: 5m par place|5|Obligatoire|
+|`places`|nombre entier|Nombre de places réelles de l'emprise en cas de présence de marquage au sol|12|Optionnel|
+|`calculated_places`|nombre entier|Nombre de places calculées pour l'emprise. Exemple: 5m par place|5|Obligatoire|
 |`calculated_area`|nombre|Surface calculée en m2 de l'emprise de stationnement|71,66|Obligatoire|
-|`street_name`|chaîne de caractères|Nom de la voie où est situé l'emprise de stationnment|Rue Berger|Obligatoire|
-|`street_number_start`|chaîne de caractères|Début du numéro de voie où est situé l'emprise de stationnment|14Bis|Optionnel|
-|`street_number_end`|chaîne de caractères|Fin du numéro de voie où est situé l'emprise de stationnment|32Ter|Optionnel|
+|`street_name`|chaîne de caractères|Nom de la voie où est situé l'emprise de stationnement|Rue Berger|Obligatoire|
+|`street_number_start`|chaîne de caractères|Début du numéro de voie où est situé l'emprise de stationnement|14Bis|Optionnel|
+|`street_number_end`|chaîne de caractères|Fin du numéro de voie où est situé l'emprise de stationnement|32Ter|Optionnel|
 |`postal_code`|chaîne de caractères|Code postal de la voie [code postal](https://fr.wikipedia.org/wiki/Code_postal_en_France) de la commune sur 5 caractères (incluant 'A' ou 'B' pour la Corse)|75012|Obligatoire|
-|`created_at`|date [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601)|Date de relevée de l'emprise|2021-08-27|Obligatoire|
+|`created_at`|date [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601)|Date de relevé de l'emprise|2021-08-27|Obligatoire|
 |`updated_at`|date [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601)|Date de mise à jour de l'emprise|2021-08-27|Optionnel|
-|`geo_point_2d`|GeoJSON [Position](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1)|Latitude et longitude du centre de l'emprise de stationnemment|[ 2.277977652847767, 48.90399743580084 ]|Obligatoire|
+|`geo_point_2d`|GeoJSON [Position](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1)|Latitude et longitude du centre de l'emprise de stationnement|[ 2.277977652847767, 48.90399743580084 ]|Obligatoire|
 |`producer`|chaîne de caractères|Nom ou raison sociale de l'entité ayant produit la donnée|Macaron|Optionnel|
 |`regulations`|[Regulation]|Liste des régulations qui régissent l'emprise||Optionnel|
 
